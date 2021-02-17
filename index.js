@@ -105,10 +105,10 @@ Person.prototype.toString = function() {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. On the global it showes everything in the entire window
+    2. In an object it is used to call something in that abject instead of writing out objetc.blah but this.blah.
+    3. For new it creates an object and returns it
+    4. Explicit makes this defined by using another object with another object
   */
   
   
