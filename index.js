@@ -83,7 +83,16 @@ Person.prototype.toString = function() {
   Car.prototype.fill = function (gallons){
     this.tank += gallons;
   }
+//  Stretch
+  Car.prototype.drive = function (distances){
+    this.odometer += this.distances
+    this.tank -= this.distances / this.milesPerGallon
+    if (this.tank === 0){
+      return `I ran out of fual at ${this.odometer} miles!`
+    }
+  }
   
+
   
   /*
     TASK 3
